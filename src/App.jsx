@@ -74,16 +74,6 @@ function App() {
             boshqaruvlardan foydalaning.
           </p>
         </div>
-
-        <div className="app__toolbar">
-          <div className="pill pill--strong">
-            {taskCount} ta vazifa
-            <span className="pill__dot" />
-          </div>
-          <div className="pill pill--ghost">
-            Qisqa ro&apos;yhat, tezkor nazorat
-          </div>
-        </div>
       </header>
 
       <section className="app__panel">
