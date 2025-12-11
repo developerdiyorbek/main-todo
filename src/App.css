@@ -331,3 +331,44 @@ body {
     justify-content: flex-start;
   }
 }
+
+@media (max-width: 480px) {
+  #root {
+    padding: 20px 14px 48px;
+  }
+
+  .app__title {
+    font-size: 26px;
+  }
+
+  .app__subtitle {
+    font-size: 14px;
+  }
+
+  .app__panel,
+  .app__header {
+    padding: 18px 16px;
+  }
+
+  .todo-form {
+    gap: 10px;
+  }
+
+  .todo-form .btn {
+    width: 100%;
+  }
+
+  .todo-item {
+    padding: 12px 12px;
+  }
+
+  .actions {
+    width: 100%;
+  }
+
+  .actions .btn {
+    flex: 1;
+    min-width: 140px;
+    justify-content: center;
+  }
+}
